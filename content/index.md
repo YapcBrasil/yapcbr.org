@@ -1,15 +1,5 @@
-<!DOCTYPE html>
-<html>
- <head>
-  <title>YAPC::Brasil 2016 - dias 2 e 3 de Dezembro em São Paulo</title>
-  <meta charset="utf-8">
-  <meta name="viewport"     content="width=device-width, initial-scale=1, maximum-scale=1">
-  <link rel="shortcut icon" href="/favicon.png"/>
-  <link rel="stylesheet"    href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-  <link rel="stylesheet"    href="style.min.css">
-  <link rel="manifest"      href="manifest.json">
-  <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
- </head>
+
+
  <body>
   <div class="container-fluid">
     <div class="row">
@@ -30,7 +20,7 @@
     <section class="row text-center">
       <div class="col-xs-12">
         <div class="location-block">
-          <div class="location">São Paul - SP</div>
+          <div class="location">Sao Paulo</div>
           <div class="address">Des. Eliseu Guilherme, 53</div>
         </div>
         <div class="flexible-container">
@@ -55,18 +45,3 @@
     </footer>
   </div>
 
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-81330067-1', 'auto');
-  ga('require', 'linkid');
-  ga('send', 'pageview');
-
-</script>
-
-
- </body>
-</html>

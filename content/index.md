@@ -22,13 +22,15 @@
       <p class="teaser col-xs-12 text-center">
         Vem aí o maior evento de Perl da América Latina!
       </p>
-      <p class="date col-xs-12">2.12.2016</p>
+      <p class="date col-xs-12"> 
+	Dias 2.12.2016 e 3.12.2016
+      </p>
     </section>
 
     <section class="row text-center">
       <div class="col-xs-12">
         <div class="location-block">
-          <div class="location">São Paulo</div>
+          <div class="location">São Paul - SP</div>
           <div class="address">Des. Eliseu Guilherme, 53</div>
         </div>
         <div class="flexible-container">

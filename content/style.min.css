@@ -1,0 +1,129 @@
+@font-face {
+  font-family: 'Intro-Inline';
+  src: url('Intro-Inline.eot');
+  src: local('☺︎'), url('Intro-Inline.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+/*  background-color: #1b2523; */
+    background-color: #192329;
+    margin: 0;
+}
+header {
+  text-align: center;
+}
+
+h1,.date {
+    font-family: 'Intro-Inline', Arial, sans-serif !important;
+    font-weight: normal;
+    font-size: 30vw;
+    color: #963b3b;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    display: inline-block;
+}
+
+h2 {
+    margin: -40px 0 0;
+    font-family: Arial, sans-serif !important;
+    font-weight: bold;
+    font-size: 22vw;
+    text-align: center;
+    color: #b9ca6b;
+    border-top: 3px #963b3b solid;
+    border-bottom: 3px #963b3b solid;
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+.teaser {
+    font-family: "Lato", serif;
+    font-weight: normal;
+    font-size: 3vw;
+    color: #b9ca6b;
+    background-color: #2e404a;
+    margin: 60px 0 0;
+    padding: 30px;
+}
+
+.date {
+    margin: 0 0 60px;
+    color: #192329;
+    background-color: #963b3b;
+    font-size: 10vw;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.location-block {
+  border-bottom: 2px #b9ca6b solid;
+  display: inline-block;
+  padding-bottom: 20px;
+}
+
+.location {
+    text-align: center;
+    font-size: 10vw;
+    color: #963b3b;
+    text-transform: uppercase;
+    font-family: Arial, sans-serif !important;
+    font-weight: bold;
+}
+
+.address {
+    font-family: Arial, sans-serif !important;
+    font-size: 6vw;
+    font-weight: bold;
+    text-align: center;
+    color: #b9ca6b;
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+.map {
+    margin: 60px auto;
+    display: block;
+}
+
+.flexible-container {
+    position: relative;
+    padding-bottom: 45%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+    margin-bottom: 40px;
+}
+
+.flexible-container iframe,
+.flexible-container object,
+.flexible-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.social-links {
+  padding: 40px;
+  background-color: #2e404a;
+}
+
+.icon-link {
+  display: inline-block;
+  margin: 0 20px;
+}
+
+@media (max-width: 480px) {
+  .teaser {
+    font-size: 6vw;
+  }
+  .date {
+    padding-top: 10px;
+  }
+  h2 {
+    margin-top: -20px;
+  }
+}

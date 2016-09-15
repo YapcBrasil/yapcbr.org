@@ -1,0 +1,8 @@
+{
+  "name": "YAPC::Brasil 2016",
+  "short_name": "YAPC::BR",
+  "description": "O maior evento de Perl moderno do Brasil",
+  "lang": "pt-BR",
+  "start_url": "/",
+  "display": "standalone"
+}

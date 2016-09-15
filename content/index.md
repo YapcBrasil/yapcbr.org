@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <title>YAPC::Brasil 2016 - dias São Paulo</title>
+  <meta charset="utf-8">
+  <meta name="viewport"     content="width=device-width, initial-scale=1, maximum-scale=1">
+  <link rel="shortcut icon" href="/favicon.png"/>
+  <link rel="stylesheet"    href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <link rel="stylesheet"    href="style.min.css">
+  <link rel="manifest"      href="manifest.json">
+  <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+ </head>
+ <body>
+  <div class="container-fluid">
+    <div class="row">
+      <header class="col-xs-12 text-center">
+          <h1>YAPC</h1>
+          <h2>Brasil</h2>
+      </header>
+    </div>
+    <section class="row">
+      <p class="teaser col-xs-12 text-center">
+        Vem aí o maior evento de Perl da América Latina!
+      </p>
+      <p class="date col-xs-12">2.12.2016</p>
+    </section>
+
+    <section class="row text-center">
+      <div class="col-xs-12">
+        <div class="location-block">
+          <div class="location">São Paulo</div>
+          <div class="address">Des. Eliseu Guilherme, 53</div>
+        </div>
+        <div class="flexible-container">
+          <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.8918596254875!2d-46.64630114976702!3d-23.57232706780652!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59964d70f62b%3A0xe34b039c833c4bce!2sR.+Des.+Eliseu+Guilherme%2C+53+-+Para%C3%ADso%2C+S%C3%A3o+Paulo+-+SP%2C+04004-030!5e0!3m2!1sen!2sbr!4v1467318941015" width="600" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+      </div>
+    </section>
+
+    <footer class="row social-links">
+      <ul class="list-inline col-xs-12 text-center">
+        <li><a href="http://www.twitter.com/yapcbrasil" class="icon-link">
+          <svg width="48px" height="42px" viewBox="0 0 48 42" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+              <path d="M23.2346641,12.6800076 L21.5135778,12.4628608 C15.248824,11.6304646 9.77576981,8.80755605 5.12883696,4.06651746 L2.85700309,1.7140936 L2.27183387,3.45126804 C1.03265174,7.32371958 1.82435135,11.4133179 4.40598071,14.1638441 C5.7828497,15.6838717 5.47305421,15.9010187 3.09795523,14.9962402 C2.27183387,14.706711 1.54897762,14.4895643 1.4801341,14.5981378 C1.23918213,14.8514757 2.06530349,18.1448689 2.71931623,19.4477498 C3.61428111,21.2573067 5.43863245,23.0306722 7.43509243,24.0802151 L9.12175691,24.9126113 L7.12529694,24.9488023 C5.19768032,24.9488023 5.12883696,24.9849935 5.33536735,25.7450073 C6.02380184,28.0974312 8.74311807,30.5946195 11.7722298,31.6803535 L13.9063766,32.4403674 L12.0476035,33.5984837 C9.29386554,35.2632759 6.05822344,36.2042455 2.82258134,36.2766278 C1.27360372,36.3128188 0,36.4575833 0,36.5661568 C0,36.928068 4.19945033,38.9547717 6.64339282,39.7509766 C13.9752201,42.1034005 22.6839165,41.0900486 29.2240442,37.0728327 C33.870977,34.2137329 38.5179099,28.5317248 40.6864785,23.0306722 C41.8568171,20.0991903 43.0271557,14.7429023 43.0271557,12.1733316 C43.0271557,10.5085394 43.130421,10.2913927 45.0580374,8.30088027 C46.1939544,7.14276386 47.2610279,5.87607415 47.4675582,5.51416271 C47.8117754,4.82653121 47.7773538,4.82653121 46.0218458,5.44178046 C43.0959992,6.52751461 42.6829384,6.3827501 44.1286509,4.75414896 C45.1957245,3.59603255 46.4693282,1.49694683 46.4693282,0.881697417 C46.4693282,0.773124121 45.9530023,0.954079842 45.3678331,1.2797999 C44.7482419,1.64171134 43.3713729,2.18457833 42.3387212,2.51029856 L40.4799481,3.12554781 L38.7932836,1.93124036 C37.863897,1.2797999 36.5558715,0.555977358 35.867437,0.338830425 C34.111929,-0.167845355 31.4270345,-0.0954631006 29.8436352,0.483594933 C25.5409195,2.11219608 22.8216033,6.31036785 23.131399,10.9066419 L23.2346641,12.6800076 Z" id="ic_twitter_32x32" stroke="none" fill="#BACA5A" fill-rule="evenodd"></path>
+          </svg>
+        </a></li>
+        <li><a href="http://www.facebook.com/YapcBrasil" class="icon-link">
+          <svg width="22px" height="42px" viewBox="119 0 22 42" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+              <path d="M133.159525,20.4975996 L139.199564,20.4975996 L140,13.4323589 L133.159525,13.4323589 L133.169787,9.89613785 C133.169787,8.0534142 133.356641,7.0660408 136.181255,7.0660408 L139.957242,7.0660408 L139.957242,0 L133.916347,0 C126.660262,0 124.106308,3.42740189 124.106308,9.19121401 L124.106308,13.433159 L119.583333,13.433159 L119.583333,20.4983997 L124.106308,20.4983997 L124.106308,41 L133.159525,41 L133.159525,20.4975996 Z" id="ic_fb_32x32" stroke="none" fill="#BACA5A" fill-rule="evenodd"></path>
+          </svg>
+        </a></li>
+      </ul>
+    </footer>
+  </div>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-81330067-1', 'auto');
+  ga('require', 'linkid');
+  ga('send', 'pageview');
+
+</script>
+
+
+ </body>
+</html>

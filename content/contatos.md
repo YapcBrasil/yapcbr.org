@@ -1,4 +1,8 @@
-	Contatos da Organizacao	
+blocks:
+
+title   = Contatos da Organizacao
+
+;
 
 Contatos da Organizacao
 =======================

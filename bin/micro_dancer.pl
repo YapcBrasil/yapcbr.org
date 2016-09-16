@@ -14,39 +14,45 @@ my $dir = ( dirname abs_path $0 ) . "/../";
 my @files;
 
 my $template_config = {
-	INCLUDE_PATH	=> $dir . "/template",
+    INCLUDE_PATH    => $dir . "/template",
 };
-
 
 find( \&wanted, $dir );
 
 for my $file ( @files ) {
-	my $md = read_file( $file );	
-	my $content = markdown( $md );
+    my @md = read_file( $file, binmode => ':utf8' );
+    $file =~ s/(.*\.)md/$1html/;
+
+    my $vars;
+    $vars->{ title } = "YAPC::Brasil 2016 - dias 2 e 3 de Dezembro em Sao Paulo";
+
+    if ( $md[0] eq "blocks:\n" ){
+        print "With header $file $md[0]\n";
+        my $line;
+        do {
+            $line = shift @md;
+            my ( $key, $value ) = split ( '\t=', $line );
+            $vars->{ $key } = $value;
+        } while ( $line ne ";\n" or ! @md );
+    } else {
+        print "No header $file\n";
+    }
+
+    if ( ! @md ) {
+        die "Error processing $file\n";
+    }
+
+    my $content = markdown( join "" , @md );
+    $vars->{ content } = $content;
     my $html;
-	
-	my $title = "YAPC::Brasil 2016 - dias 2 e 3 de Dezembro em Sã Paulo";
-	if ( $md =~ /\t(.*)\t\n/ ) {
-		$title = $1;
-	}
 
-	$file =~ s/(.*\.)md/$1html/;
-
-    print "$file\n";
 
     my $template = Template->new( $template_config );
-	$template->process(
+    $template->process(
             'default.tt',
-			{ 
-				content => $content,
-				title	=> $title,
-			},
+            $vars,
             $file,
-		) or die;
-
-#	open my $fh, '>', $file  or die " Failed opening the file\n";
-#		print $fh $html;
-#	close $fh;
+    ) or die;
 
 }
 
